@@ -94,6 +94,7 @@ namespace cowdogcop
                 answer = Console.ReadLine().ToUpper();
                 Console.WriteLine("----NEXT --||-- BATTLE----");
             }
+
         }
     }
 }
