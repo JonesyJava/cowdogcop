@@ -85,6 +85,14 @@ namespace cowdogcop
                 {
                     Console.WriteLine("TIE! ... INCREDIBLE ODDS!!");
                 }
+                Console.WriteLine("---------------------------------------");
+                Console.WriteLine("USER: " + PlayerCount + "------");
+                Console.WriteLine("CPU: " + CompCount + "------");
+                Console.WriteLine("---------------------------------------");
+
+                Console.WriteLine("Want to play again, Neighbor? (Yes or No)");
+                answer = Console.ReadLine().ToUpper();
+                Console.WriteLine("----NEXT --||-- BATTLE----");
             }
         }
     }
