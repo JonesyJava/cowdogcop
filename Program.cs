@@ -6,6 +6,7 @@ namespace cowdogcop
     {
         static void Main(string[] args)
         {
+            Console.Clear();
             string answer = "";
             int PlayerCount = 0;
             int CompCount = 0;
